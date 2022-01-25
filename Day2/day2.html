@@ -8,34 +8,36 @@
     <body>
         <h1>upload your resume </h1>
         <p>
-            This site enables you to upload your resume online.Just fill out the basic information below and upload your resume.
+            This site enables you to upload your resume online.Just add the basic information and upload your resume.
         </p>
 
         <form class="form_class">
             <div class="form_element">
                 <label for="full_name">Name:</label>
-                <input type="text" id="full_name" name="full_name"> 
+                <input type="text" id="full_name" name="full_name" required> 
             </div>
 
             <div class="form_element">
                 <label for="age">Age:</label>
-                <input type="text" id="age" name="age">
+                <input type="text" id="age" name="age" required>
             </div>
 
             <div class="form_element">
                 <label for="occupation">Current occupation:</label>
-                <input type="text" id="occupation" name="occupation">
+                <input type="text" id="occupation" name="occupation" required>
             </div>
-        </form>
-        <p>
-            Link to :<a href="/Users/malcolmorian/WebDeving">resume</a>
-        </p>
-        
-        <label for="desc">Short description:</label>
-        <textarea id="desc" rows="5" cols="20">
-            Provide a brief description of yourself
-        </textarea>
-        
-        
+
+            <div class="form_element">
+                <label for="resume">Upload your resume:</label>
+                <input type="file" id="resume" name="resume" required>
+            </div>
+            <div class="form_element">
+                <textarea id="desc" rows="5" cols="20" name="profile" required>
+                </textarea>
+            </div>
+            <div class="form_element">
+                <input type="submit" value="Submit">
+            </div>
+        </form>   
     </body>
 </html>
