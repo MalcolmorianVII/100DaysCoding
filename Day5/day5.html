@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Resume uploader</title>
+        <link rel="stylesheet" href="day4.css">
+    </head>
+    <body>
+        <h1>upload your resume </h1>
+        <p>
+            This site enables you to upload your resume online.Just add the basic information and upload your resume.
+        </p>
+
+        <form action="submission.html" method="post" class="form_class" target="_blank">
+            <div class="form_element">
+                <label for="full_name">Name:</label>
+                <input type="text" id="full_name" name="full_name" required> 
+            </div>
+
+            <div class="form_element">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+
+            <div class="form_element">
+                <label for="occupation">Current occupation:</label>
+                <input type="text" id="occupation" name="occupation" required>
+            </div>
+
+            <div class="form_element">
+                <label for="resume">Upload your resume:</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.docx" required>
+            </div>
+            <div class="form_element">
+                <textarea id="desc" rows="5" cols="20" name="profile" required>
+                </textarea>
+            </div>
+            <div class="form_element">
+                <input type="submit" value="Submit">
+            </div>
+        </form>   
+    </body>
+</html>
