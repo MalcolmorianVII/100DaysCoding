@@ -1,0 +1,24 @@
+.parent_container{
+    box-sizing: border-box;
+    border: solid 10px green;
+}
+.container {
+    margin-left: 40%;
+    margin-right: 40%;
+    clear: both;
+    /*border: solid 1px red;*/
+
+}
+
+.floated{
+    float: left;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 20px 10px 20px 10px ;
+}
+span{
+    display: block;
+}
