@@ -1,24 +1,50 @@
-.parent_container{
+* {
     box-sizing: border-box;
-    border: solid 10px green;
 }
+body > section{
+    margin: 0 auto;
+    /*border: solid 5px red;*/
+}
+.parent-container{
+    border: solid 5px green;
+    width: 400px;
+}
+.container-image{
+    width: 50%;
+    margin: 0 auto;
+    border: solid 5px green;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+/*
 .container {
     margin-left: 40%;
     margin-right: 40%;
     clear: both;
     /*border: solid 1px red;*/
 
-}
+/*}
+
 
 .floated{
     float: left;
 }
+/*
 img{
     width: 300px;
     height: 300px;
     border-radius: 50%;
     padding: 20px 10px 20px 10px ;
 }
+*/
+/*
 span{
     display: block;
 }
+*/
